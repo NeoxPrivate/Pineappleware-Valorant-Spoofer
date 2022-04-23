@@ -1,0 +1,166 @@
+7FF6306F7DAC - start
+7FF6306F7DB8 - C:\Windows\System\read.txt
+7FF6306F7DE0 - A Previous Spoof Attempt Has Been Found We Will Continue The Spoofing Now
+7FF6306F7E30 - sc delete vgc
+7FF6306F7E40 - sc delete vgk
+7FF6306F7E50 - https://cdn.discordapp.com/attachments/953053319415349249/963991371423834162/driver4.sys
+7FF6306F7EB0 - driver4.sys
+7FF6306F7EC0 - https://cdn.discordapp.com/attachments/953053319415349249/963991383562154054/kdmapper.exe
+7FF6306F7F20 - kdmapper.exe
+7FF6306F7F30 - kdmapper.exe driver4.sys
+7FF6306F7F50 - https://cdn.discordapp.com/attachments/953053319415349249/963665866174631996/Volumeid64.exe
+7FF6306F7FB0 - Volumeid64.exe
+7FF6306F7FC0 - Volumeid64 C: FFFF-%random%
+7FF6306F7FE0 - Volumeid64 D: FFFF-%random%
+7FF6306F8000 - Volumeid64 E: FFFF-%random%
+7FF6306F8020 - Volumeid64 F: FFFF-%random%
+7FF6306F8040 - Volumeid64 G: FFFF-%random%
+7FF6306F8060 - REG ADD HKLM\SYSTEM\CurrentControlSet\Control\IDConfigDB\Hardware" "Profiles\0001 /v HwProfileGuid /t REG_SZ /d {%random%%random%-%random%-%random%-%random%%random%} /f
+7FF6306F8110 - REG ADD HKLM\SYSTEM\CurrentControlSet\Control\IDConfigDB\Hardware" "Profiles\0001 /v GUID /t REG_SZ /d {%random%%random%-%random%-%random%-%random%%random%} /f
+7FF6306F81B0 - REG ADD HKLM\SOFTWARE\Microsoft\Windows" "NT\CurrentVersion /v BuildGUID /t REG_SZ /d %random% /f
+7FF6306F8220 - REG ADD HKLM\SOFTWARE\Microsoft\Windows" "NT\CurrentVersion /v REGisteredOwner /t REG_SZ /d %random% /f
+7FF6306F8290 - REG ADD HKLM\SOFTWARE\Microsoft\Windows" "NT\CurrentVersion /v REGisteredOrganization /t REG_SZ /d %random% /f
+7FF6306F8300 - REG ADD HKLM\SOFTWARE\Microsoft\Cryptography /v GUID /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8370 - REG ADD HKLM\SOFTWARE\Microsoft\Cryptography /v MachineGuid /t REG_SZ /d %random%%random%-%random%-%random%-%random% /f
+7FF6306F83F0 - REG ADD HKLM\SOFTWARE\Microsoft\SQMClient /v MachineId /t REG_SZ /d {%random%-%random%-%random%-%random%%random%} /f
+7FF6306F8470 - REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName /v ComputerName /t REG_SZ /d DESKTOP-%random% /f
+7FF6306F84F0 - REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName /v ComputerName /t REG_SZ /d DESKTOP-%random% /f
+7FF6306F8570 - REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate /v SusClientId /t REG_SZ /d %random%-%random%-%random%-%random%%random% /f
+7FF6306F8600 - REG ADD HKLM\SOFTWARE\NVIDIA" "Corporation\Global /v ClientUUID /t REG_SZ /d %random%-%random%-%random%-%random%%random% /f
+7FF6306F8680 - REG ADD HKLM\HARDWARE\DESCRIPTION\System\BIOS /v SystemVersion /t REG_SZ /d %random%-%random%-%random%-%random%%random% /f
+7FF6306F8700 - REG ADD HKLM\HARDWARE\DESCRIPTION\System\BIOS /v SystemSKU /t REG_SZ /d %random%-%random%-%random%-%random%%random% /f
+7FF6306F8780 - REG ADD HKLM\HARDWARE\DESCRIPTION\System\BIOS /v SystemProductName /t REG_SZ /d %random%-%random%-%random%-%random%%random% /f
+7FF6306F8800 - REG ADD HKLM\HARDWARE\DESCRIPTION\System\BIOS /v BIOSVender /t REG_SZ /d %random%-%random%-%random% /f
+7FF6306F8870 - REG ADD HKLM\HARDWARE\DESCRIPTION\System\BIOS /v BIOSVersion /t REG_SZ /d %random% /f
+7FF6306F88C8 - reg add HKLMSYSTEMCurrentControlSetControlWMIRestrictions /F
+7FF6306F8910 - reg add HKLMSYSTEMCurrentControlSetControlWMIRestrictions /v HideMachine /t REG_DWORD /d 1 /F
+7FF6306F8970 - reg add HKLMSYSTEMControlSet001ControlClass{4d36e97d-e325-11ce-bfc1-08002be10318}
+7FF6306F89C2 - 9 /v MatchingDeviceId /t REG_SZ /d %random% /f
+7FF6306F8A00 - reg add HKLMSYSTEMControlSet001EnumACPIPNP0C02
+7FF6306F8A2F -  /v HardwareID /t REG_SZ /d %random%-%random% /f
+7FF6306F8A60 - reg add HKLMSYSTEMControlSet001EnumACPIPNP0C02
+7FF6306F8A8F -  /v Driver /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8AD0 - reg add HKLMSYSTEMControlSet001EnumACPIPNP0C02
+7FF6306F8AFF -  /v ClassGUID /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8B50 - reg add HKLMSYSTEMCurrentControlSetControlVideo.Video /v Driver /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8BD0 - reg add HKLMSYSTEMCurrentControlSetControlVideo{54717583-BD14-11EC-B9E4-02746713CEBA}Video /v Driver /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8C70 - reg add HKLMSYSTEMCurrentControlSetEnumDISPLAY.. /v ClassGUID /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8CF0 - reg add HKLMSYSTEMCurrentControlSetEnumDISPLAY.. /v Driver /t REG_SZ /d %random%-%random%-%random%-%random% /f
+7FF6306F8D60 - Spoofed!
+7FF6306F8D70 - Spidey Bot
+7FF6306F8DA0 - hOR_VmO/.$m'&F
+7FF6306F8DC5 - qJ4.$c
+7FF6306F8DCC - $2"HU
+7FF6306F8E0A - n~s}s
+7FF6306F8E18 - pTM]QW[`
+7FF6306F8E3C - ZVH<`UNN
+7FF6306F8E4D - ')&,.k
+7FF6306F8E54 - "<upQ
+7FF6306F8E60 - txtn~
+7FF6306F8E70 - |BKUO[[@pTM]QW[`
+7FF6306F8E81 - + !+5"H
+7FF6306F8E98 -                   SP Spoofer
+7FF6306F8EC0 -                          Pinepple Spoofer (Latest Build: 4/19/22)
+7FF6306F8F08 - ##LeftSide
+7FF6306F8F18 - Spoofers
+7FF6306F8F30 - Build: Working                                                            Build: Working
+7FF6306F8F90 - Last Update: 4/19/22                                                Last Update: 4/18/22
+7FF6306F9000 - res:                                                Temp Spoof Features:
+7FF6306F9050 - [ + ] Spoofs baseboard                                          [ + ] Spoofs disk serial
+7FF6306F90B0 - [ + ] Spoofs bios                                               [ + ] Spoofs GPU
+7FF6306F9110 - [ + ] Spoofs mac address                                        [ + ] Spoofs disk drive
+7FF6306F9170 - [ + ] Spoofs UUID's                                             [ + ] Spoofs UUID's
+7FF6306F91D0 - [ + ] Spoofs GUID's                                             [ + ] Spoofs GUID's
+7FF6306F9230 - [ + ] Extra Registry                                            [ + ] Extra registry
+7FF6306F9290 - [ + ] Spoofs SMBios                                             [ + ] Spoofs bios
+7FF6306F92F0 -                                                                 [ + ] Spoofs SMBios
+7FF6306F9350 -                                                                 [ + ] Spoofs baseboard
+7FF6306F93B0 -                                                                 [ + ] Spoofs Monitor
+7FF6306F9408 - Perm Spoof
+7FF6306F9420 - https://cdn.discordapp.com/attachments/953053319415349249/963658746838540288/amifldrv64.sys
+7FF6306F9480 - amifldrv64.sys
+7FF6306F9490 - https://cdn.discordapp.com/attachments/953053319415349249/963658747023097856/UCOREDLL.DLL
+7FF6306F94F0 - UCOREDLL.DLL
+7FF6306F9500 - https://cdn.discordapp.com/attachments/953053319415349249/963658747291529226/UCORESYS.SYS
+7FF6306F9560 - UCORESYS.SYS
+7FF6306F9570 - https://cdn.discordapp.com/attachments/953053319415349249/963658747778064404/UCOREVXD.VXD
+7FF6306F95D0 - UCOREVXD.VXD
+7FF6306F95E0 - https://cdn.discordapp.com/attachments/953053319415349249/963658747966795816/UCOREW64.SYS
+7FF6306F9640 - UCOREW64.SYS
+7FF6306F9650 - https://cdn.discordapp.com/attachments/953053319415349249/963658748134576138/AMIDEWINx64.EXE
+7FF6306F96B0 - AMIDEWINx64.EXE
+7FF6306F96C0 - AMIDEWINx64 /su auto
+7FF6306F96D8 - AMIDEWINx64 /bs %random%%random%%random%%random%
+7FF6306F9710 - AMIDEWINx64 /SS %random%-%random%-%random%
+7FF6306F9740 - AMIDEWINx64 /SV %random%-%random%-%random%
+7FF6306F9770 - AMIDEWINx64 /SK %random%-%random%-%random%
+7FF6306F97A0 - AMIDEWINx64 /BM %random%-%random%-%random%
+7FF6306F97D0 - AMIDEWINx64 /BV %random%-%random%-%random%
+7FF6306F9800 - AMIDEWINx64 /PSN %random%-%random%-%random%
+7FF6306F9830 - AMIDEWINx64 /SM %random%-%random%-%random%
+7FF6306F9860 - https://cdn.discordapp.com/attachments/953053319415349249/964964662854684783/AMIDEWINx64.EXE
+7FF6306F98C0 - AMIDEWINx64.exe
+7FF6306F98D0 - AMIDEWINx64 /IVN %random%-%random%
+7FF6306F98F8 - AMIDEWINx64 /IV %random%
+7FF6306F9918 - AMIDEWINx64 /SS %random%-%random%-%random%-%random%
+7FF6306F9950 - REG ADD HKLM\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001 /v NetworkAddress /t REG_SZ /d %random%%random%%random% /f
+7FF6306F99F0 - Your Internet Connection Will Go Out For 30 Seconds Do Not Worry
+7FF6306F9A38 - netsh interface set interface name = Wi-Fi admin = DISABLED
+7FF6306F9A78 - netsh interface set interface name = Ethernet admin = DISABLED
+7FF6306F9AB8 - netsh winsock reset
+7FF6306F9AD0 - netsh winsock reset catalog
+7FF6306F9AF0 - netsh int ip reset
+7FF6306F9B08 - netsh advfirewall reset
+7FF6306F9B20 - netsh int reset all
+7FF6306F9B38 - netsh int ipv4 reset
+7FF6306F9B50 - netsh int ipv6 reset
+7FF6306F9B68 - ipconfig /release
+7FF6306F9B80 - ipconfig /renew
+7FF6306F9B90 - ipconfig /flushdns
+7FF6306F9BA8 - netsh interface set interface name = Wi-Fi admin = ENABLED
+7FF6306F9BE8 - netsh interface set interface name = Ethernet admin = ENABLED
+7FF6306F9C28 - Your Internet Connection Has Been Restored
+7FF6306F9C60 - https://cdn.discordapp.com/attachments/953053319415349249/965787491300945960/DevManView.exe
+7FF6306F9CC0 - DevManView.exe
+7FF6306F9CD0 - https://cdn.discordapp.com/attachments/953053319415349249/965787491510669332/DevManView.cfg
+7FF6306F9D30 - DevManView.cfg
+7FF6306F9D40 - https://cdn.discordapp.com/attachments/953053319415349249/965787491682619402/DevManView.chm
+7FF6306F9DA0 - DevManView.chm
+7FF6306F9DB0 - https://cdn.discordapp.com/attachments/953053319415349249/965791304984449095/drive.bat
+7FF6306F9E08 - drive.bat
+7FF6306F9E18 - start drive.bat
+7FF6306F9E28 -                                 
+7FF6306F9E50 - Temp Spoof
+7FF6306F9E60 - Cleaners
+7FF6306F9E70 - Last Update: 4/15/22                                                Last Update: 4/13/22
+7FF6306F9ED0 - Cleaning Features:                                                    Cleaning Features:
+7FF6306F9F30 - [ + ] Cleans registry files                                  [ + ] Cleans userdata files
+7FF6306F9F90 - [ + ] Cleans file explorer files
+7FF6306F9FB8 - Clean Valorant Ban Traces
+7FF6306FA000 - hments/953053319415349249/964735406073585725/val_clean.bat
+7FF6306FA040 - C:\Windows\System\val_clean.bat
+7FF6306FA060 - start C:\Windows\System\val_clean.bat
+7FF6306FA088 - Cleaned!
+7FF6306FA098 - Clean Steam Userdata
+7FF6306FA0B0 - @rd /S /Q C:\Program Files(x86)\Steam\userdata
+7FF6306FA0E0 - @rd /S /Q D:\Program Files(x86)\Steam\userdata
+7FF6306FA110 - Presets
+7FF6306FA120 - Build: Undetected             Build: Testing                 Build: Undetected
+7FF6306FA170 - Last Update: 4/19/22          Last Update: 4/16/22           Last Update: 4/19/22
+7FF6306FA1D0 - Features:                     Features:                      Features:
+7FF6306FA220 - [ + ] Perm Spoofs             [ + ] Perm + Temp Spoof        [ + ] Perm + Temp Spoof
+7FF6306FA280 - [ + ] Cleans Valorant         [ + ] Cleans userdata          [ + ] Cleans userdata
+7FF6306FA2D8 - Valorant
+7FF6306FA2E8 - Spoofed & Cleaned!
+7FF6306FA300 - BE Games
+7FF6306FA310 - dont delete
+7FF6306FA320 - Your PC Will Restart Now, Open The Spoofer When You Boot Back Up
+7FF6306FA368 - EAC Games
+7FF6306FA378 - Q: Why Am I Still Getting Banned?
+7FF6306FA3A0 - A: Well Heres A List Of Reasons:
+7FF6306FA3C8 - DELL & AsusTek Motherboards Are NOT Supported ATM
+7FF6306FA400 - Try Revo Uninstall Valorant (search a vid if you dont know how)
+7FF6306FA440 - Try Flashing Bios
+7FF6306FA458 - Try Windows Reinstall In Worst Case
+7FF6306FA480 - Q: If I Need Help/Have Questions Who Should I Ask?
+7FF6306FA4C0 - A: Open A Woofer Ticket And State Your Problem And Ping CeoOfMuzzlebreak#1337
